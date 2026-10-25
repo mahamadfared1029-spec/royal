@@ -1,0 +1,75 @@
+{
+  "source": "user screenshot and explicit correction",
+  "date": "2026-10-25",
+  "average_elixir": 2.875,
+  "cards": [
+    {
+      "name": "Goblin Barrel",
+      "elixir": 3,
+      "level": 14,
+      "role": "tower_pressure",
+      "targets": "ground",
+      "priority_target": "tower"
+    },
+    {
+      "name": "Goblins",
+      "elixir": 2,
+      "level": 13,
+      "role": "ground_dps",
+      "targets": "ground",
+      "priority_target": "ground"
+    },
+    {
+      "name": "Valkyrie",
+      "elixir": 4,
+      "level": 14,
+      "role": "ground_splash",
+      "targets": "ground",
+      "priority_target": "ground"
+    },
+    {
+      "name": "Cannon",
+      "elixir": 3,
+      "level": 13,
+      "role": "building_pull",
+      "targets": "ground",
+      "priority_target": "ground"
+    },
+    {
+      "name": "Dart Goblin",
+      "elixir": 3,
+      "level": 14,
+      "role": "ranged_air_defense",
+      "targets": "both",
+      "priority_target": "both"
+    },
+    {
+      "name": "Goblin Gang",
+      "elixir": 3,
+      "level": 15,
+      "role": "swarm_bait",
+      "targets": "both",
+      "priority_target": "both"
+    },
+    {
+      "name": "Princess",
+      "elixir": 3,
+      "level": 14,
+      "role": "long_range_splash",
+      "targets": "both",
+      "priority_target": "both"
+    },
+    {
+      "name": "Wall Breakers",
+      "elixir": 2,
+      "level": 14,
+      "role": "tower_pressure",
+      "targets": "ground",
+      "priority_target": "building"
+    }
+  ],
+  "uncertainties": [
+    "Evolution/hero activation slots not verified",
+    "Card mechanics and damage should be refreshed against current official data"
+  ]
+}

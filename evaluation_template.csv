@@ -1,0 +1,1 @@
+match_id,timestamp_ms,phase,own_elixir,enemy_elixir_min,enemy_elixir_max,hand,threat,vision_confidence,candidates,selected_action,reason,execution_latency_ms,damage_taken,damage_dealt,result,mistake_category

@@ -1,0 +1,66 @@
+{
+  "air_heavy": {
+    "detect": [
+      "Lava Hound",
+      "Balloon",
+      "Phoenix",
+      "Skeleton Dragons"
+    ],
+    "policy": [
+      "Never count Cannon/Valkyrie/Goblins as air DPS",
+      "Preserve Dart Goblin or Princess if air threat may be imminent",
+      "Split air defenders to reduce spell value",
+      "Counterpressure opposite lane only when survival margin is positive"
+    ]
+  },
+  "log_bait": {
+    "detect": [
+      "Goblin Barrel",
+      "Princess",
+      "Goblin Gang"
+    ],
+    "policy": [
+      "Track own lack of Log and all spells",
+      "Do not spend Valkyrie carelessly",
+      "Predict barrel landing and use efficient available ground troops"
+    ]
+  },
+  "beatdown": {
+    "detect": [
+      "Golem",
+      "Giant",
+      "Electro Giant"
+    ],
+    "policy": [
+      "Pressure opposite lane on expensive tank placement only when defending support remains affordable",
+      "Target support units first",
+      "Central Cannon placement must be verified"
+    ]
+  },
+  "bridge_spam": {
+    "detect": [
+      "Battle Ram",
+      "Bandit",
+      "Royal Ghost",
+      "P.E.K.K.A"
+    ],
+    "policy": [
+      "Hold Cannon for charge win condition",
+      "Use Valkyrie to stabilize clustered ground pressure",
+      "Do not spend all elixir on Barrel"
+    ]
+  },
+  "cycle": {
+    "detect": [
+      "Hog Rider",
+      "Ice Spirit",
+      "Skeletons",
+      "Cannon"
+    ],
+    "policy": [
+      "Count opponent win condition cycle",
+      "Retain Cannon at key moments",
+      "Attack when enemy building or small spell is out of hand"
+    ]
+  }
+}

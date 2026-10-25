@@ -1,0 +1,44 @@
+{
+  "hard_constraints": [
+    "Only use 8 verified deck cards",
+    "Do not deploy a card absent from hand",
+    "Do not spend more elixir than observed available",
+    "Do not assume unseen enemy cards are known",
+    "Do not use ground-only units as direct air defenders",
+    "Do not infer opponent exact elixir from visual evidence alone",
+    "No direct damage spell exists in deck"
+  ],
+  "scoring_weights_example": {
+    "tower_damage_prevented": 4,
+    "immediate_lethal_prevention": 100,
+    "tower_damage_dealt": 2,
+    "positive_elixir_trade": 1.5,
+    "anti_air_resource_preservation": 3,
+    "risk_penalty": -3,
+    "uncertainty_penalty": -2
+  },
+  "candidate_actions": [
+    "defend",
+    "attack",
+    "cycle",
+    "wait"
+  ],
+  "operating_modes": [
+    "single_elixir: conservative scouting and chip",
+    "double_elixir: measured pressure and counterpush",
+    "triple_elixir: high tempo but protect critical defense",
+    "overtime: prioritize tower-health race and lethal threats"
+  ],
+  "bait_logic": [
+    "Observe small spell use",
+    "Track cards played since spell; do not assume precise rotation with unknown special mechanics",
+    "Pressure with Goblin Barrel when expected answer is weak and defense budget sufficient",
+    "Use Wall Breakers to force split resource allocation"
+  ],
+  "positioning": [
+    "Store calibrated tile coordinates for each screen resolution",
+    "Validate Cannon center pull by unit type",
+    "Avoid deploying Princess and Dart Goblin inside the same spell radius",
+    "Re-observe after deployment before queuing a new action"
+  ]
+}
